@@ -1,6 +1,7 @@
 import string
-import uuid
 from abc import ABC, abstractmethod
+
+from .todo_item import TodoItem
 
 
 class Store(ABC):
